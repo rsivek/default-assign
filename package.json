@@ -1,0 +1,29 @@
+{
+  "name": "default-assign",
+  "version": "0.1.0",
+  "description": "ES6 Object.assign() like functionality, but does not replace existing properties, and is recursive.",
+  "license": "MIT",
+  "repository": "nanowizard/object-assign",
+  "author": {
+    "name": "Ryan Sivek",
+    "email": "nanowizardry@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "object",
+    "assign",
+    "extend",
+    "properties",
+    "es6",
+    "ecmascript",
+    "harmony"
+  ]
+}
