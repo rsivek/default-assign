@@ -14,11 +14,11 @@ defaultAssign({foo: 0, bar: 1}, {bar: 2, baz: 2});
 //=> {foo: 0, bar: 1, baz: 2}
 
 // multiple sources
-defaultAssign({foo: 0, bar: 1}, {bar: 2}, {baz: 3);
+defaultAssign({foo: 0, bar: 1}, {bar: 2}, {baz: 3});
 //=> {foo: 0, bar: 1, baz: 3}
 
 // recursive
-defaultAssign({foo: 0, bar: {barA: 1, barB: 2}}, {bar: {barA: 2, barC: 3});
+defaultAssign({foo: 0, bar: {barA: 1, barB: 2}}, {bar: {barA: 2, barC: 3}});
 //=> {foo: 0, bar: {barA: 1, barB: 2, barC: 3}}
 
 // ignores null and undefined sources
@@ -36,3 +36,6 @@ Assigns enumerable own properties of `source` objects recursively to the `target
 
 ## Resources
 Based off of the [ES6 Object.assign polyfill by MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+
+## Licence
+MIT
