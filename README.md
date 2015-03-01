@@ -31,7 +31,7 @@ defaultAssign({foo: 0, bar: 1}, null, {bar: 2, baz: 2}, undefined);
 
 ### defaultAssign(target, source, [source, ...])
 
-Assigns enumerable own properties of `source` objects recursively to the `target` object if undefined and returns the `target` object.
+Assigns enumerable own properties of `source` objects recursively to the `target` object if `undefined` and returns the `target` object.
 
 
 ## Resources
