@@ -1,6 +1,6 @@
 {
   "name": "default-assign",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ES6 Object.assign() like functionality, but does not replace existing properties, and is recursive.",
   "license": "MIT",
   "repository": "nanowizard/object-assign",
@@ -14,8 +14,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "main": "default-assign.js",
   "files": [
-    "index.js"
+    "default-assign.js"
   ],
   "keywords": [
     "object",
