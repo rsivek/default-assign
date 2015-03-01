@@ -1,6 +1,20 @@
-'use strict';
+(function (root, f){
+	'use strict';
 
-module.exports = function defaultAssign(target, firstSource) {
+    if (typeof define === 'function' && define.amd){
+        // AMD.
+        define(['exports'], function() { return f; });
+
+    } else if (typeof module === 'object' && typeof module.exports === 'object'){
+        // CommonJS
+        module.exports = f;
+
+    } else {
+        // Browser globals
+        root.defaultAssign = f;
+    }
+}(( typeof window === 'object' && window ) || this, function defaultAssign(target, firstSource){
+ 'use strict';
   if (target === undefined || target === null)
     throw new TypeError("Cannot convert first argument to object");
 
@@ -39,4 +53,4 @@ module.exports = function defaultAssign(target, firstSource) {
       throw pendingException;
   }
   return to;
-}
+}));
