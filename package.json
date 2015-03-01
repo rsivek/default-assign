@@ -12,7 +12,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec/"
   },
   "main": "default-assign.js",
   "files": [
@@ -26,5 +26,8 @@
     "es6",
     "ecmascript",
     "harmony"
-  ]
+  ],
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
