@@ -1,0 +1,27 @@
+{
+  "name": "default-assign",
+  "main": "default-assign.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nanowizard/default-assign",
+  "authors": [
+    "Ryan Sivek <nanowizardry@gmail.com>"
+  ],
+  "description": "ES6 Object.assign() like functionality, but does not replace existing properties, and is recursive.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Object.assign",
+    "copy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
