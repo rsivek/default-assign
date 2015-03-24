@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ES6 Object.assign() like functionality, but does not replace existing properties, and is recursive.",
   "license": "MIT",
-  "repository": "nanowizard/object-assign",
+  "repository": "nanowizard/default-assign",
   "author": {
     "name": "Ryan Sivek",
     "email": "nanowizardry@gmail.com"
