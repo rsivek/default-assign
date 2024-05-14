@@ -6,7 +6,7 @@
   "repository": "rsivek/default-assign",
   "author": {
     "name": "Ryan Sivek",
-    "email": "nanowizardry@gmail.com"
+    "email": "developer@ryansivek.com"
   },
   "engines": {
     "node": ">=0.10.0"
